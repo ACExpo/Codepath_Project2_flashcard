@@ -7,7 +7,7 @@ Multiple choices question app
 
 ### App Walk-though
 
-<img src= https://imgur.com/a/4tNEICU width=200><br>
+<img src= https://imgur.com/a/4tNEICU.gif width=200><br>
 
 
 ## Required
