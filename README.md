@@ -7,7 +7,7 @@ Multiple choices question app
 
 ### App Walk-though
 
-<img src= https://imgur.com/a/4tNEICU.gif width=200><br>
+<img src= https://github.com/ACExpo/Codepath_Project2_flashcard/blob/master/ACE%20Project%202.gif width=200><br>
 
 
 ## Required
