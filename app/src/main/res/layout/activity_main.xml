@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/backGround"
+    android:background="#DFFDFE">
+
+
+    <TextView
+        android:id="@+id/flash_question"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/cardview_default_elevation"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/q_backgroup"
+
+        android:shadowColor="@color/dark"
+        android:shadowDx="3"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:text="Who is the President of Brazil?"
+        android:textAlignment="center"
+        android:textColor="@color/dark"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/button1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp"
+
+        android:background="@drawable/d_backgroup"
+        android:padding="11dp"
+
+        android:shadowColor="@color/dark"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+
+        android:text="Michel Temer"
+        android:textAlignment="center"
+        android:textColor="@color/dark"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/button2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+
+        android:background="@drawable/d_backgroup"
+        android:padding="11dp"
+
+        android:shadowColor="@color/dark"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+
+        android:text="Silvio Santos"
+        android:textAlignment="center"
+        android:textColor="@color/dark"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/right_answer"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+
+        android:background="@drawable/d_backgroup"
+        android:padding="11dp"
+
+        android:shadowColor="@color/dark"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+
+        android:text="Jair Bolsonaro"
+        android:textAlignment="center"
+        android:textColor="@color/dark"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/button1_2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp"
+
+        android:background="@drawable/w_backgroup"
+        android:padding="11dp"
+
+        android:shadowColor="@color/dark"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+
+        android:text="Michel Temer"
+        android:textAlignment="center"
+        android:textColor="@color/dark"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/button2_2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+
+        android:background="@drawable/w_backgroup"
+        android:padding="11dp"
+
+        android:shadowColor="@color/dark"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+
+        android:text="Silvio Santos"
+        android:textAlignment="center"
+        android:textColor="@color/dark"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/right_answer_2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+
+        android:background="@drawable/a_backgroup"
+        android:padding="11dp"
+
+        android:shadowColor="@color/dark"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+
+        android:text="Jair Bolsonaro"
+        android:textAlignment="center"
+        android:textColor="@color/dark"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
